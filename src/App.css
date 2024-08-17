@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 70%;
+}
+
+.header_home .images{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.end .endtwo .images{
+    display: flex;
+    justify-content: space-between;
+}

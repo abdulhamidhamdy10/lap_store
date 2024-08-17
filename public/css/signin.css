@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: aqua; */
+    /* background-image: url(../images/body-bg.png); */
+    background-image: url(../images/apple/etXyPN5.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    /* height: 100px; */
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(2,auto);
+    color: white;
+    /* padding: 10px; */
+    font-size: larger;
+    text-align: center;
+    /* margin-top: 10px; */
+    transition: transform 0.3s;
+
+}
+
+
+.first{
+    color: darkorange;
+    grid-column: 3/4;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:monospace;
+
+}
+
+
+.home{
+    grid-column: 9/10;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+    transition: transform 0.3s;
+}
+.home:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.apple{
+    grid-column: 10/11;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+}
+.apple:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.hp{
+    grid-column: 11/12;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+
+}
+.hp:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+.dell{
+transition: transform 0.3s;
+
+    grid-column: 12/13;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+}
+.dell:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+
+
+
+.navbar button{
+    background-color: darkorange;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border-style:solid;
+    transition: transform 0.3s;
+
+}
+
+.navbar button:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+}
+
+
+.navbar .home p, .apple p, .hp p, .dell p{
+    color: black;
+}
+
+
+
+/* ********************************************************* */
+/* form  */
+/* ********************************************************* */
+
+form{
+    padding-top: 50px;
+
+}
+
+.form form .elementform{
+    border-radius: 40px;
+    padding: 30px 30px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.473);
+    width: 70%;
+    color: rgb(0, 0, 0);
+}
+.form form .elementform input{
+    border-radius: 40px;
+    margin-bottom: 80px;
+    padding: 13px 0px;
+    width: 100%;
+    margin: auto;
+    text-align:center;
+background-color: rgb(255, 255, 255);
+}
+
+.form form .elementform .button{
+background-color: rgb(0, 128, 255);
+width: 10%;
+margin-right: 800px;
+}
+
+.form .maps{
+    margin-left: 230px;
+    padding-top: 40px;
+    width: 30%;
+}
+
+.form .maps iframe{
+    margin-top: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************* */
+/* footer  */
+/* ********************************************************* */
+.footer{
+    margin-top: 100px;
+    padding-top: 10px;
+    color: rgb(245, 235, 223);
+    background-color: rgb(0, 0, 0);
+  
+}
+
+
+.footercontent{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(1,auto);
+    text-align: center;
+    gap: 30px;
+}
+
+
+.footer h1{
+    text-align: center;
+}
+
+.itemone{
+    grid-column: 5/6;
+}
+.itemtwo{
+    grid-column: 7/8;
+}
+.itemthree{
+    grid-column: 9/10;
+}
+.itemfour{
+    grid-column: 11/12;
+}
+
+.footer .container{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}

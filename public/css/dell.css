@@ -1,0 +1,470 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: aqua; */
+    /* background-image: url(../images/body-bg.png); */
+    background-color: rgb(245, 235, 223);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    /* height: 100px; */
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(2,auto);
+    color: white;
+    /* padding: 10px; */
+    font-size: larger;
+    text-align: center;
+    /* margin-top: 10px; */
+    transition: transform 0.3s;
+
+}
+
+
+.first{
+    color: darkorange;
+    grid-column: 3/4;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:monospace;
+
+}
+
+
+.home{
+    grid-column: 9/10;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+    transition: transform 0.3s;
+}
+.home:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.apple{
+    grid-column: 10/11;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+}
+.apple:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.hp{
+    grid-column: 11/12;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+
+}
+.hp:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+.dell{
+transition: transform 0.3s;
+
+    grid-column: 12/13;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+}
+.dell:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+
+
+
+.navbar button{
+    background-color: darkorange;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border-style:solid;
+    transition: transform 0.3s;
+
+}
+
+.navbar button:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+}
+
+
+.navbar .home p, .apple p, .hp p, .dell p{
+    color: black;
+}
+
+
+/* ********************************************************* */
+/* header  */
+/* ********************************************************* */
+
+.header{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(16,auto);
+    grid-template-rows: repeat(1,auto);
+}
+
+.header .text{
+    margin-left: 30px;
+    color: black;
+    /* grid-column: 2/8; */
+}
+.header .text h1{
+  margin-top: 20px;
+  font-size: 100px;
+  font-weight: 900;
+}
+.header .text button{
+    margin-top: 20px;
+    padding: 5px 10px;
+transition: transform 0.3s;
+
+}
+.header .text button:hover{
+    transform: scale(1.2);
+    border: 3px  solid darkorange;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+
+
+}
+
+.header .image img{
+    width: 600px;
+    height: 440px;
+}
+
+/* ********************************************************* */
+/* main  */
+/* ********************************************************* */
+
+
+.main{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(1,auto);
+}
+
+.main .one{
+    background-color: rgb(255, 255, 255);
+
+    text-align: center;
+    margin-top: 100px;
+    grid-column: 2/8;
+}
+.main .one img{
+    margin: auto;
+    margin-top: 40px;
+
+    margin-left: 60px;
+   text-align: center;
+width: 330px;
+height: 400px;
+}
+.main .one h1{
+font-size: 80px;
+font-weight: 800;
+}
+
+
+.main .two{
+    background-color: rgb(255, 255, 255);
+padding-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    
+    grid-column: 9/15;
+}
+.main .two img{
+    margin-top: 40px;
+margin-right: 60px;
+width: 330px;
+height: 400px;
+}
+.main .two h1{
+    font-size: 80px;
+    font-weight: 800;
+    }
+
+
+/* ********************************************************* */
+/* section  */
+/* ********************************************************* */
+
+.section{
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(17, 11, 11);
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(1,auto);
+
+}
+.section .image {
+    grid-column: 3/8;
+    margin-left: 40px;
+
+   
+}
+.section .image img{
+    width: 370px;
+    height: 400px;
+   
+}
+
+.section .text {
+    margin-top: 70px;
+    grid-column: 9/14;
+    margin-left: 40px;
+}
+.section .text h1{
+margin-left: 80px;
+font-size: 70px;
+font-weight: 700;
+}
+.section .text h5{
+margin-left: 80px;
+
+}
+
+/* ********************************************************* */
+/* cotent  */
+/* ********************************************************* */
+
+.content{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(12,auto);
+    grid-template-rows: repeat(3,auto);
+}
+
+.content .one button, .two button, .three button, .four button, .five button, .six button, .seven button, .eight button, .nnine button{
+    margin-bottom: 100px;
+}
+.content img{
+    transition: transform 0.3s;
+
+}
+.content img:hover{
+    transform: scale(1.2);
+
+}
+
+.content .one{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 1/4;
+   
+}
+.content .two{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 4/8;
+}
+.content .three{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 8/12;
+}
+.content .four{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 1/4;
+}
+.content .five{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 4/8;
+}
+.content .six{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 8/12;
+}
+.content .seven{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 1/4;
+}
+.content .eight{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 4/8;
+}
+.content .nine{
+    
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 8/12;
+}
+.content .ten{
+    border-radius: 40px;
+
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 1/4;
+}
+.content .eleven{
+    border-radius: 40px;
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 4/8;
+}
+.content .twelve{
+    border-radius: 40px;
+    padding: 0px 30px;
+    padding-top: 30px;
+    margin: auto;
+    grid-column: 8/12;
+}
+
+.content .image{
+    margin-bottom: 30px;
+}
+
+.content img{
+    width: 350px;
+    height: 300px;
+}
+
+.content  button{
+    margin-top: 20px;
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+.content h5{
+    margin-top: 10px;
+/* margin-right: 20px; */
+}
+
+
+/* ********************************************************* */
+/* end */
+/* ********************************************************* */
+
+.end{
+    background-image: url(../images/dell/5782-hd-dell-logo-wallpapef.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.end h1{
+    font-weight: 800;
+    font-size: 1px;
+    margin-top: 100px;
+    margin-right: 10px;
+    color: aliceblue;
+    padding-top: 480px;
+    padding-bottom: 300px;
+    text-align:left;
+}
+
+
+
+
+/* ********************************************************* */
+/* footer  */
+/* ********************************************************* */
+.footer{
+    margin-top: 100px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 235, 223);
+  
+}
+
+
+.footercontent{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(1,auto);
+    text-align: center;
+    gap: 30px;
+}
+
+
+.footer h1{
+    text-align: center;
+}
+
+.itemone{
+    grid-column: 5/6;
+}
+.itemtwo{
+    grid-column: 7/8;
+}
+.itemthree{
+    grid-column: 9/10;
+}
+.itemfour{
+    grid-column: 11/12;
+}
+
+.footer .container{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
